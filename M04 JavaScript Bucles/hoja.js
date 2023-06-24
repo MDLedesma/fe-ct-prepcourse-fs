@@ -1,9 +1,13 @@
-var Deportes = {
-   conBalon: ["futbol", "basket", "rugby"], 
-   sinBalon: ["Boxeo", "surf", "Traking"]
-};
-
-var Persona = {nombre: "Lucas", edad: 26, estudios:{esProgramador}}
+// switch (idioma) {
+//    case "aleman":
+//       return "Guten Tag!";
+//    case "mandarin":
+//       return "Ni Hao!";
+//    case "ingles":
+//       return "Hello!";
+//    default:
+//       return "Hola!";
+// }
 
 
 
@@ -113,4 +117,119 @@ var Persona = {nombre: "Lucas", edad: 26, estudios:{esProgramador}}
 //     case "martes":
 //         console-log
 //    }
+// 
+
+
+// var mayor = arrayOfNums[0];
+// arrayOfNums.forEach(function(numero) {
+//    if(numero >= mayor){
+//       mayor = numero;}
+//    })
+// return mayor 
+
+
+// var total = 0
+// array.forEach(function(numero){
+// if (numero > 18){
+// total++;
 // }
+// })
+// return total
+
+
+// var Usuario = {
+//    nombre: "Maximiliano",
+//    password: "hola123",
+//    edad: 26,
+//    online: true,
+//    amigos: ["maria", "Jose", "Luis"],
+//    saludo: function(){
+//       console.log(nombre + " " + "hola");
+//    },
+//    sexo: "masculino"
+// }
+// console.log(Usuario.saludo);
+
+
+// //
+// Usuario.pais = "Argentina",
+// Usuario["identificacion"] = "DNI"
+
+// Usuario["pais"] = "Colombia"
+// delete Usuario.identificacion
+
+//  Usuario.decirhola = function() 
+// //    return ("hola " + name)
+
+
+
+  
+//    // }
+// var Gato = {
+//    nombre: "gary", 
+//    edad: 3,
+//    meow: function() {
+//       return("Meow!") 
+// }
+// }
+// console.log(Gato)
+
+// function agregarPropiedad(objeto, propiedad) {
+//    // Recibirás un objeto por parámetro.
+//    // Debes agregarle una propiedad con el nombre recibido por parámetro.
+//    // Esta propiedad será igual al valor `null`.
+//    // Retornar el objeto.
+//    // Tu código:
+//    objeto[propiedad] = "null";
+//    console.log(objeto)
+// }
+
+// var propiedad = "z"
+// var objeto = {
+//    x:1, 
+//    y: 2
+// }
+// objeto[propiedad] = "null"
+// console.log(objeto);
+
+
+// var multi = {
+//    numeroMisterioso: 999
+// }
+
+// var resultado = [multi.numeroMisterioso * 5]
+
+// console.log(resultado);
+
+// function agregarMetodoCalculoDescuento(objetoProducto) {
+//    // Agrega una propiedad al "objetoProducto" con el nombre "calcularPrecioDescuento".
+//    // Esta propiedad debe ser una función que multiplique el precio del producto por el porcentajeDeDescuento.
+//    // El "objetoProducto" posee una propiedad "precio" y una propiedad "porcentajeDeDescuento".
+//    // Luego debes restar del precio total del producto ese valor de descuento.
+//    // Retornar el precio final.
+//    // Ejemplo:
+//    // Precio ---> 10
+//    // PorcentajeDeDescuento ---> 0.2
+//    // Precio final ---> 8
+//    // Tu código:
+
+
+// var objetoProducto = {
+//    precio:10,
+//    porcentajeDeDescuento:0.2,
+// }
+
+// objetoProducto[calcularPrecioDescuento] = function(multiplicacion){
+// multiplicacion = this.precio * this.porcentajeDeDescuento;
+// }
+
+
+// console.log(objetoProducto);
+
+
+var numero = [1234]
+var string = [numero.toString]
+console.log(string);
+
+
+

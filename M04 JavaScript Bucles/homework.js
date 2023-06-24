@@ -37,6 +37,15 @@ function conection(status) {
    return "Away"
    else if(status !== 1, 2)
    return "Offline";
+
+   // switch (status){
+   //    case 1:
+   //       return "Online";
+   //    case 2:
+   //       return "Away"
+   //    default :
+   //    return "Offline"
+   // }
 }
 
 function saludo(idioma) {
